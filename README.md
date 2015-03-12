@@ -103,7 +103,7 @@ link(rel='stylesheet', href='res/vendors.css')
 // endbundle
 ```
 
-**For now, bundle css not support minify and debug, it just concat to one file**
+**For now, bundle css not support minify, but it also support debug mode**
 
 
 
