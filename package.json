@@ -1,0 +1,29 @@
+{
+  "name": "grunt-bower-bundle",
+  "version": "0.0.1",
+  "description": "Bundle install bower components",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qiu8310/grunt-bower-bundle"
+  },
+  "keywords": [
+    "gruntplugin",
+    "bower",
+    "install",
+    "copy",
+    "bundle"
+  ],
+  "author": "Zhonglei Qiu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiu8310/grunt-bower-bundle/issues"
+  },
+  "homepage": "https://github.com/qiu8310/grunt-bower-bundle",
+  "dependencies": {
+    "uglify-js": "^2.4.17",
+    "wiredep": "^2.2.2"
+  }
+}
