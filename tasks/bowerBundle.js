@@ -3,7 +3,7 @@ module.exports = function (grunt) {
   var path = require('path'),
     wiredep = require('wiredep'),
     uglifyJs = require('uglify-js'),
-    _ = grunt.util._;
+    _ = require('lodash');
 
 
   function getBower(dir) {

@@ -24,6 +24,7 @@
   "homepage": "https://github.com/qiu8310/grunt-bower-bundle",
   "dependencies": {
     "uglify-js": "^2.4.17",
-    "wiredep": "^2.2.2"
+    "wiredep": "^2.2.2",
+    "lodash": "^4.11.2"
   }
 }
