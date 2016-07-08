@@ -81,7 +81,7 @@ module.exports = function (grunt) {
 
     var processFile = function(type, dist, opts) {
       var content;
-      if (type === 'js' && (_.include(opts, 'uglify') || _.include(opts, 'min'))) {
+      if (type === 'js' && (_.includes(opts, 'uglify') || _.includes(opts, 'min'))) {
         content = uglifyJs.minify(parseData[type]).code;
       } else {
         content = parseData[type].reduce(function(sum, file) { return sum + grunt.file.read(file);}, '');
@@ -105,7 +105,7 @@ module.exports = function (grunt) {
 
           if (tpl && parseData[type] && parseData[type].length) {
             result.push(left);
-            if (_.include(opts, 'debug')) {
+            if (_.includes(opts, 'debug')) {
               _.each(parseData[type], function(f) {
                 result.push(tpl.replace('{{filePath}}', path.relative(fileDir, f)));
               });
