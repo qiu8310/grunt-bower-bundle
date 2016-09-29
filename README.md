@@ -1,4 +1,4 @@
-# grunt-bower-bundle v0.0.1
+# grunt-bower-bundle v0.1.0
 
 > Bundle install bower components
 > 
